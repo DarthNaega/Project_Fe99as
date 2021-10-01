@@ -92,11 +92,22 @@ nav {
     max-width: 800px;
 }
 .postinfo {
-    background-color: #444444;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     
+}
+/*.posterusername{
+    color: white;
+}*/
+.timeandname {
+color: white;
+}
+.posttitle {
+    color: rgb(211, 211, 211);
+}
+.postcontent {
+ color: rgb(190, 190, 190);
 }
 .flame{
  width: 25px;
@@ -149,8 +160,8 @@ nav {
     justify-content: space-evenly;
 }
 .upvotedownvote, .comments, .share{
+    color: white;
     margin-top: 10px;
-    background-color: #444444;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
